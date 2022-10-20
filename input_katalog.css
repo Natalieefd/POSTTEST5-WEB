@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header paling atas */
+.header-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+    background-color: #B8BFD6;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.first_name {
+    font-weight: 550;
+    font-style: italic;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+
+.last_name {
+    color:rgb(238, 228, 214);
+    font-weight: 510;
+    padding-left: 4px;
+}
+
+
+
+
+.footer-c {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    background-color: #B8BFD6;
+    color:aliceblue;
+    font-size: small;
+    line-height: 50px;
+}
